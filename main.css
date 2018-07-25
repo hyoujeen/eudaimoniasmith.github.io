@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    background-color: #101546;
+    padding: 15px;
+    overflow-x: hidden;
+    font-size: calc(0.75em + 1vmin);
+}
+
+body.sample {width:100%}
+
+/* HEADER CSS */
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 200px;
+    background-color: #101546;
+}
+
+/* NAV CSS (with SC logo, site title, dropdown menu)*/
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    background-color: floralwhite;
+    top: 0;
+    text-align: center;
+}
+
+#smithlogo.centered {
+  position:relative;
+  top: 100px;
+  margin-left: 50%;
+  vertical-align: middle;
+}
+
+/* MENU */
+
+* { padding: 0; margin: 0; }
+body { font-family: fantasy; }
+a { text-decoration: none; color: #101546; }
+li { list-style-type: none; }
+
+div a {
+	display: block;
+	padding: 8px 0;
+	border-bottom: 1px solid #C3AA6E;
+	color: #101546;
+}
+div a:hover { background: #101546; color: floralwhite; }
+div li:last-child a { border-bottom: none; }
+
+/*-----------------------------------------*/
+
+.menu {
+	width: 150px;
+	height: 120%;
+	position: absolute;
+	background: #D9C9A3;
+  top: 440px;
+	left: 0;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+
+}
+
+#menuToggle { display: none; }
+
+#menuToggle:checked ~ .menu { position: absolute; left: 0; }
+
+/* MOTO CSS */
+
+#moto {
+    position: relative;
+    top: 130px;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #101546;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 0.1em
+}
+
+/* FIRST SECTION BLURB */
+
+#blurb {
+    position: absolute;
+    top: 273px;
+    font-size: 27px;
+    line-height: 1.2;
+    color: floralwhite;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 0.15em;
+}
+
+#blurb1 {
+    position: absolute;
+    top: 365px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: floralwhite;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 0.15em;
+}
+
+
+/* SCROLLING */
+
+.parallax {
+    /* The image used */
+    background-image: url("https://www.facdarchitects.com/wp-content/uploads/2017/02/front-use-this-for-slideshow.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Set a specific width */
+    margin: 0 auto;
+
+    /* Create the parallax scrolling effect */
+    top: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SECOND SECTION OF MAIN PAGE*/
+
+#separator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 850px;
+  width: 100%;
+  height: 800px;
+  background-color: #101546;
+}
+
+
+/* DEWEY HOUSE */
+
+#candle {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  max-width: 750px;
+  width: 750px;
+  height: 600px;
+}
+
+#deweyblurb {
+  position: absolute;
+  top: 60px;
+  font-size: 35px;
+  line-height: 1.2;
+  color: floralwhite;
+  max-width: 40%;
+  width: 40%;
+  right: 50px;
+  text-align: right;
+  font-family: fantasy;
+  letter-spacing: 0.15em;
+
+  @media (min-width: 800px) {
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+#deweydescrip {
+  position: absolute;
+  top: 260px;
+  font-size: 25px;
+  line-height: 1.2;
+  color: floralwhite;
+  max-width: 40%;
+  width: 40%;
+  right: 50px;
+  text-align: right;
+  font-family: fantasy;
+  letter-spacing: 0.15em;
+  @media (min-width: 800px) {
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+
+/* CRED AT BOTTOM */
+
+#cred {
+  position: absolute;
+  top: 1735px;
+  font-size: 15px;
+  line-height:1.1;
+  color: #101546;
+  max-width: 100%;
+  right: 25%;
+  text-align: center;
+  font-family: fantasy;
+  letter-spacing: 0.1em;
+}
+
+/* ABOUT PAGE */
+
+#candle2 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 275px;
+  height:200px
+}
+
+#about {
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  font-size: 50px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: cursive;
+  letter-spacing: 0.15em;
+}
+
+#aboutdet {
+    position: absolute;
+    top: 380px;
+    left: 240px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: floralwhite;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    font-family: fantasy;
+    letter-spacing: 0.15em;
+}
+
+/* SECOND SECTION OF ABOUT PAGE with CREDS*/
+
+#separator2 {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 800px;
+  width: 100%;
+  height: 100px;
+  background-color: floralwhite;
+}
+
+#creds {
+  position: relative;
+  top: 70px;
+  color:#101546;
+  font-size:15px;
+  text-align:center;
+}
+
+/* SUBMISSIONS PAGE */
+
+#submissions {
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  font-size: 50px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: cursive;
+  letter-spacing: 0.15em;
+}
+
+#submissionsdet {
+    position: absolute;
+    top: 350px;
+    left: 240px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: floralwhite;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    font-family: fantasy;
+    letter-spacing: 0.15em;
+}
+
+#submissiontemplate {
+    position: absolute;
+    top: 650px;
+    left: 240px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: floralwhite;
+    /* max-width: 100%; */
+    /* width: 100%; */
+    text-align: left;
+    font-family: fantasy;
+    letter-spacing: 0.15em;
+}
+
+/* JOURNAL PAGE */
+
+#journal {
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  font-size: 50px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: cursive;
+  letter-spacing: 0.15em;
+}
+
+#journaldet {
+    position: absolute;
+    top: 380px;
+    left: 240px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: floralwhite;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    font-family: fantasy;
+    letter-spacing: 0.15em;
+}
+
+/* ARCHIVES PAGE */
+
+#archives {
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  font-size: 50px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: cursive;
+  letter-spacing: 0.15em;
+  }
+
+#archivesdet {
+  position: absolute;
+  top: 380px;
+  left: 240px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: fantasy;
+  letter-spacing: 0.15em;
+}
+
+/* CONTACT PAGE */
+
+#contactus {
+  position: absolute;
+  top: 280px;
+  left: 240px;
+  font-size: 50px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: cursive;
+  letter-spacing: 0.15em;
+}
+
+#contactdet {
+  position: absolute;
+  top: 400px;
+  left: 240px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: floralwhite;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+  font-family: fantasy;
+  letter-spacing: 0.15em;
+}

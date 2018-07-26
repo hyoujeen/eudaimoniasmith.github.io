@@ -118,6 +118,8 @@ div li:last-child a { border-bottom: none; }
     /* Set a specific width */
     margin: 0 auto;
 
+    position:fixed;
+	
     /* Create the parallax scrolling effect */
     top: 800px;
     background-attachment: fixed;

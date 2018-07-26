@@ -94,21 +94,8 @@ div li:last-child a { border-bottom: none; }
 
 #blurb {
     position: absolute;
-    top: 273px;
+    top: 280px;
     font-size: 27px;
-    line-height: 1.2;
-    color: floralwhite;
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
-    font-family: fantasy;
-    letter-spacing: 0.15em;
-}
-
-#blurb1 {
-    position: absolute;
-    top: 365px;
-    font-size: 18px;
     line-height: 1.2;
     color: floralwhite;
     max-width: 100%;

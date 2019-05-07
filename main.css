@@ -342,14 +342,14 @@ div li:last-child a { border-bottom: none; }
   position: relative;
   background: #FFF;
   margin: 20px 0 0 0;
-  height: 300px;
+  height: 500px;
   width: 1100px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
 }
 
 .post {
   width: 820px;
-  margin-left: auto ;
+  margin-left: 200px ;
   margin-right: auto ;
 }
 

@@ -336,12 +336,12 @@ div li:last-child a { border-bottom: none; }
     font-family: fantasy;
     letter-spacing: 0.15em;
 }
-
 #pdf {
   padding: 40px;
   position: absolute;
   background: floralwhite;
   margin: 20px 0 0 0;
+  margin-left: 500px;
   height: 600px;
   width: 750px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
@@ -349,7 +349,7 @@ div li:last-child a { border-bottom: none; }
 
 .post {
   width: 750px;
-  margin-left: 200px ;
+  margin-left: auto ;
   margin-right: auto ;
 }
 

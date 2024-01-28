@@ -156,6 +156,7 @@ blockquote {
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
     background-size: cover;
+	  opacity: 0.5;
   }
 }
 

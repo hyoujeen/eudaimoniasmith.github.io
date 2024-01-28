@@ -151,12 +151,14 @@ blockquote {
   height: 100vh;
   min-height: 375px;
   position: relative;
+
+	opacity: 0.5;
 }
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
     background-size: cover;
-	  opacity: 0.5;
+	  
   }
 }
 
